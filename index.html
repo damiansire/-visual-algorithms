@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -7,47 +7,57 @@
     <title>Document</title>
     <link rel="stylesheet" href="./styles/styles.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 </head>
 
 
 <body>
     <div class="merge-tree-container">
-        <div class="inicial-line line">
-            <div id="initial-array" class="array-element"> [ 3 , 0 , 7, 4 ]</div>
+        <div class="line">
+
+            <div id="initial-array" class="array-element"> [ 3 , 0 , 7 , 4 ]</div>
+
         </div>
-        <div class="line first-line row">
-            <div class="array-element right-array col-sm-6"> [ 3 , 0 ]</div>
-            <div class="array-element left-array col-sm-6"> [ 7, 4 ]</div>
+        <div class="line">
+
+            <div class="tree-column line-1">
+                <div class="array-element"> [ 3 , 0 ]</div>
+                <div class="array-element"> [ 7 , 4 ]</div>
+            </div>
+
         </div>
-        <div class="line second-line row">
-            <div class="row col-sm-6">
-                <div class="array-element right-array col-sm-6"> [ 3 ]</div>
-                <div class="array-element left-array col-sm-6"> [ 0 ]</div>
+        <div class="line">
+
+            <div class="tree-column-max line-2">
+                <div class="array-element"> [ 3 ]</div>
+                <div class="array-element"> [ 0 ]</div>
             </div>
-            <div class="row col-sm-6">
-                <div class="array-element right-array col-sm-6"> [ 7 ]</div>
-                <div class="array-element left-array col-sm-6"> [ 4 ]</div>
+            <div class="tree-column-max line-2">
+                <div class="array-element"> [ 7 ]</div>
+                <div class="array-element"> [ 4 ]</div>
             </div>
+
         </div>
-        <div class="line third-line row">
-            <div class="row col-sm-6">
-                <div class="array-element right-array col-sm-6 merge-rigth-part"> [ 0 ,</div>
-                <div class="array-element left-array col-sm-6 merge-left-part"> 3 ]</div>
+        <div class="line">
+
+            <div class="tree-column-colapse line-3">
+                <div class="array-element">[ 3 ,</div>
+                <div class="array-element">&nbsp;0 ]</div>
             </div>
-            <div class="row col-sm-6">
-                <div class="array-element right-array col-sm-6 merge-rigth-part"> [ 4 ,</div>
-                <div class="array-element left-array col-sm-6 merge-left-part"> 7 ]</div>
+            <div class="tree-column-colapse line-3">
+                <div class="array-element">[ 7 ,</div>
+                <div class="array-element">&nbsp;4 ]</div>
             </div>
+
         </div>
-        <div class="line final-line">
-            <div class="right-array array-element final-array"> [ 0 , 3 , </div>
-            <div class="left-array array-element final-array">4, 7 ]</div>
+        <div class="line">
+
+            <div class="tree-column-colapse line-4">
+                <div class="array-element">[ 0 , 3 ,</div>
+                <div class="array-element">&nbsp;4, 7 ]</div>
+            </div>
+
         </div>
         <script src="./scripts/scripts.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-
     </div>
 
 

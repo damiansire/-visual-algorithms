@@ -1,19 +1,40 @@
 body {
-    margin: 10px;
+    margin: 20px;
 }
 
 .array-element {
-    text-align: center;
-    font-size: 60px;
+    font-size: 20px;
 }
 
 .line {
     display: flex;
-    justify-content: center;
-    margin: 25px 0px;
+    justify-content: space-around;
+    border: 0;
+    margin: 0;
+    padding: 10px 0 10px 0;
 }
 
 .tree-column {
+    justify-content: space-around;
+    display: flex;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.tree-column-max {
+    justify-content: space-around;
+    display: flex;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    width: 50%;
+}
+.tree-column-colapse {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    justify-content: space-around;
     display: flex;
 }
 
@@ -26,13 +47,5 @@ button {
 }
 
 .merge-tree-container {
-    margin: 0px 40px;
-}
-
-.merge-left-part {
-    text-align: left;
-}
-
-.merge-rigth-part {
-    text-align: right;
+    background-color: beige;
 }
