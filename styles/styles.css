@@ -1,0 +1,38 @@
+body {
+    margin: 10px;
+}
+
+.array-element {
+    text-align: center;
+    font-size: 60px;
+}
+
+.line {
+    display: flex;
+    justify-content: center;
+    margin: 25px 0px;
+}
+
+.tree-column {
+    display: flex;
+}
+
+button {
+    padding: 10px;
+    background-color: white;
+    border: blue 2px solid;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.merge-tree-container {
+    margin: 0px 40px;
+}
+
+.merge-left-part {
+    text-align: left;
+}
+
+.merge-rigth-part {
+    text-align: right;
+}
